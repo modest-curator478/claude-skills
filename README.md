@@ -1,6 +1,6 @@
-# claude-skills
+# claude-skills: B2B Demand Gen, RevOps, and Marketing Leadership Skills for Claude
 
-Practitioner-built Claude skills for B2B marketing, demand generation, and RevOps professionals. Built by someone who has run these programs, not someone who has read about them.
+A library of Claude skills built for B2B demand gen leaders, RevOps practitioners, and marketing Directors. Covers HubSpot, ABM, intent data, pipeline health, win/loss analysis, offer negotiation, sales alignment, and small team management. Built from 20 years of running these programs, not reading about them.
 
 Every skill in this repo encodes a real decision that practitioners face repeatedly and get wrong in predictable ways. The goal is not to explain how something works. The goal is to encode the judgment behind the work so Claude can operate as a genuinely useful thinking partner, not a prompt formatter.
 
