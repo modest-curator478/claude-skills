@@ -1,0 +1,362 @@
+---
+name: win-loss-analysis
+version: 1.0.0
+description: |
+  AUTO-TRIGGER: Apply this skill when the user wants to run, structure,
+  or improve a win/loss analysis program. Trigger phrases include:
+  "win/loss analysis," "why are we losing deals," "why do we win,"
+  "lost deal analysis," "closed lost reasons," "competitive losses,"
+  "deal debrief," "why did we lose to [competitor]," "what does sales
+  say about why we lose," "our closed lost data is useless," "I want
+  to interview lost prospects," or any situation where the user is trying
+  to understand the patterns behind deal outcomes.
+
+  Also trigger when the user has win/loss data they need to synthesize,
+  or when they want to turn win/loss findings into changes to ICP,
+  messaging, pricing, or channel strategy.
+
+  Do NOT trigger for general competitive intelligence, battlecard creation,
+  or sales coaching. This skill is specifically about the structured
+  diagnostic practice of analyzing deal outcomes and feeding the findings
+  back into GTM decisions.
+allowed-tools:
+  - Read
+  - Write
+  - WebSearch
+  - Edit
+---
+
+# Win/Loss Analysis: The Diagnostic That Improves Everything Downstream
+
+This skill structures a win/loss analysis program that actually changes
+how the team goes to market. Most companies do some version of win/loss
+analysis. Almost none do it in a way that produces findings specific
+enough to act on.
+
+The failure mode is familiar: CRM closed/lost reason fields that contain
+nothing useful ("not the right time," "went with competitor," "budget"),
+post-loss debrief conversations with the sales rep that produce the rep's
+perspective rather than the prospect's, and quarterly summaries that
+confirm what leadership already believed rather than revealing something
+that changes a decision.
+
+This skill encodes the practices that produce findings specific enough
+to change ICP definition, adjust messaging, inform pricing, and redirect
+channel investment. The analysis is only useful if it feeds back into
+something that changes.
+
+---
+
+## HOW TO SET UP THIS SKILL
+
+Provide:
+
+- What data you currently have on lost deals: CRM closed/lost reasons,
+  rep debrief notes, anything else
+- Whether you have access to lost prospects for direct interviews
+- The time period you want to analyze
+- The primary question you are trying to answer: is this about a specific
+  competitor, a specific market segment, a pricing problem, or general
+  pattern identification?
+- What decisions you want to be able to make differently as a result
+
+---
+
+## Why CRM Closed/Lost Data Is Almost Always Wrong
+
+Before building any analysis on CRM closed/lost data, understand its
+limitations. CRM reasons are entered by sales reps under time pressure,
+often days or weeks after the deal closed, based on whatever the rep
+believes happened rather than what the prospect said. Four structural
+problems make this data unreliable:
+
+Reps rationalize losses. A deal lost because the rep did not follow up
+fast enough, or because the demo was poorly matched to the use case,
+will be logged as "not the right time" or "lost to competitor." The rep
+is not lying. They genuinely believe their interpretation. But the root
+cause is invisible in the data.
+
+Categories are too broad to be useful. "Lost to competitor" tells you
+nothing about why the prospect chose the competitor. "Price" tells you
+nothing about whether the price was objectively too high, whether the
+value was not communicated, or whether the discount was offered too
+late. Every category in a standard CRM picklist is several real reasons
+collapsed into one useless label.
+
+Reps only know what the prospect told them. Prospects do not always give
+honest feedback during a sales process. They tell reps what is
+comfortable rather than what is true. "We decided to go in a different
+direction" is easier to say than "your champion left the company and
+we lost momentum" or "your competitor's CSM flew out to meet with us
+and yours never called back."
+
+Selection bias on who logs what. Reps who lose deals they expected to
+win log detailed notes. Reps who lose deals they expected to lose often
+log quickly and move on. The CRM overrepresents competitive losses on
+deals where the rep felt invested and underrepresents losses on deals
+where the rep was never confident.
+
+None of this means CRM data is useless. It means it must be treated
+as one signal among several, not as ground truth.
+
+---
+
+## The Three Data Sources That Produce Reliable Findings
+
+**Source 1: Direct prospect interviews (most valuable, hardest to get)**
+
+A 20-minute conversation with a decision-maker at a company that
+evaluated your product and chose not to buy produces more insight than
+100 closed/lost CRM records. Prospects are often willing to share their
+real reasoning once the sales process is over and there is no commercial
+pressure in the conversation.
+
+Who conducts the interview matters. The prospect will be more honest
+with a neutral party (a RevOps leader, a product marketer, or an outside
+researcher) than with the sales rep who lost the deal. The rep's presence
+changes what the prospect is willing to say.
+
+The five questions that produce the most useful findings:
+
+"Walk me through your evaluation process. What triggered the search,
+who was involved, and how did you approach the decision?"
+
+"What were the two or three things that mattered most to your team
+when you were making this decision?"
+
+"What was your impression of [your company] during the evaluation?
+What stood out, positively or negatively?"
+
+"What ultimately drove the final decision?" (Ask this after the above
+questions, not first. Context makes the answer more useful.)
+
+"Is there anything we could have done differently that might have
+changed the outcome?" (Many prospects will answer this honestly
+and the answers are often actionable.)
+
+Do not defend the product. Do not correct misconceptions during the
+interview. The goal is to understand what the prospect believed, not
+to re-litigate the sale.
+
+**Source 2: Rep debrief structured correctly**
+
+A rep debrief is most useful when it separates the rep's interpretation
+from what the prospect actually said. The standard debrief question
+("why did we lose?") produces interpretation. These questions produce
+evidence:
+
+"What did the prospect say, specifically, when they told you they
+were going with someone else?"
+
+"At what point in the process did you first sense the deal was at
+risk? What happened that week?"
+
+"Who was the main decision-maker and who else was involved in the
+final decision? Did you have access to all of them?"
+
+"If you were going to run this deal again knowing what you know now,
+what would you do differently?"
+
+"What did the competitor do that we did not do?"
+
+The gap between what the prospect said and what the rep believes
+happened is often where the most useful insight lives.
+
+**Source 3: Pattern analysis across CRM data with corrected categories**
+
+Once you have enough interview and debrief data to understand the
+real reasons, go back and re-code the CRM records. Apply the real
+categories you have discovered to the full dataset. This produces
+volume on what the interviews revealed. "Our pricing perception
+problem is not in the enterprise segment, it is specifically in
+companies under 200 employees" is a finding that requires both the
+interview to surface the pattern and the CRM volume to confirm it.
+
+---
+
+## What to Analyze and What to Look For
+
+**The competitive loss pattern:**
+
+When you lose to a specific competitor repeatedly, the question is not
+"why is their product better?" The question is "at what point in the
+evaluation did the outcome tip, and what caused it to tip?" Look for:
+
+Which stage of the evaluation the competitor was introduced. If they
+are consistently introduced after your demo, the problem is your demo
+or your follow-up, not your product. If they are in the evaluation
+from the beginning, the problem is positioning or awareness.
+
+What the competitor did that you did not do. A competitor who offers
+a paid pilot, who brings in executive sponsorship, who has a reference
+customer in the prospect's vertical, or who has a shorter
+implementation timeline has addressed a specific concern you have not.
+
+Whether the loss is concentrated in a specific segment. Losing to
+Competitor A in the enterprise segment while winning against them in
+mid-market points to a product gap at enterprise scale. Losing to
+Competitor A uniformly across segments points to a sales or
+positioning problem.
+
+**The internal political loss pattern:**
+
+Many deals are not lost to competitors. They are lost because the
+champion left, the budget was reallocated, the project was deprioritized,
+or the buying committee could not reach alignment. These losses look
+like competitive losses in the CRM and are categorized as "not the
+right time." They are actually ICP signals.
+
+If you are consistently losing deals because the champion does not have
+enough organizational authority to drive the purchase through, your ICP
+needs to include a minimum seniority level for the primary contact.
+
+If you are consistently losing deals at the procurement stage after a
+technical win, you have a pricing or contract structure problem that
+no amount of better demos will fix.
+
+**The messaging gap pattern:**
+
+When prospects consistently name a capability or a proof point as the
+reason they chose the competitor, and that capability or proof point
+exists in your product but was not communicated effectively, you have
+a messaging gap, not a product gap. The fix is different. A product
+gap requires roadmap changes. A messaging gap requires new demo
+structure, new collateral, and different talking points.
+
+Separate "they chose the competitor because the competitor has X and
+we do not" from "they chose the competitor because they believed the
+competitor has X and we do not." The second is a messaging problem.
+You need both the interview and the rep debrief to tell them apart.
+
+---
+
+## Feeding Findings Back Into GTM Decisions
+
+Win/loss analysis that produces a report no one acts on is a waste.
+Before completing any win/loss cycle, map each significant finding to
+a specific decision or change.
+
+**Findings that should change ICP:**
+You are consistently losing in a specific vertical, company size band,
+or organizational structure. Stop targeting those accounts, or
+explicitly flag them as lower-confidence targets with a different
+approach.
+
+**Findings that should change messaging:**
+Prospects consistently misunderstand a key capability, or consistently
+name a benefit you provide but did not lead with. Change the demo
+script, the email sequence, the website copy in that area.
+
+**Findings that should change the sales process:**
+You are losing deals at a consistent stage. Investigate what happens
+at that stage and what the winning team does differently. If the
+competitor consistently gets to the procurement team and you do not,
+add a step in your process to reach procurement earlier.
+
+**Findings that should change pricing or contract structure:**
+You are consistently losing deals where the prospect cited total cost
+of ownership, implementation timeline, or contract flexibility as
+the deciding factor. These are structural issues that require a
+commercial response, not a sales response.
+
+**Findings that should change channel investment:**
+You are winning in accounts sourced through a specific channel at a
+higher rate than accounts sourced through others. Shift budget toward
+the channel that produces higher win rates, not the channel that
+produces more volume.
+
+---
+
+## Running Win/Loss on Wins Too
+
+Win/loss programs that only analyze losses miss half the picture.
+Understanding why you win is as important as understanding why you
+lose, because wins confirm which segments, use cases, and competitive
+situations you are best positioned for.
+
+The most useful question from a win interview: "At what point did you
+decide you were going to go with us, and what caused that?"
+
+The answer tells you which part of your process or positioning actually
+drove the decision. It is often not what the sales team believes. It
+is frequently something that happened informally, not in the structured
+demo or proposal.
+
+---
+
+## Deliver the Win/Loss Analysis
+
+Output in this format:
+
+```
+WIN/LOSS ANALYSIS
+Time period: [quarter or date range]
+Deals analyzed: [number, split by won/lost if available]
+Primary question: [the decision the user is trying to inform]
+Built: [today's date]
+
+DATA QUALITY ASSESSMENT
+[Honest evaluation of the CRM data, rep debrief quality, and
+prospect interview access the user has described. Flag where the
+data is likely unreliable and why. This sets the right expectations
+for the confidence level of the findings.]
+
+INTERVIEW PLAN
+[If prospect interviews are possible: who to contact, the outreach
+approach to maximize response, and the five questions to ask in the
+order that produces the most honest answers. If not possible,
+what to use instead and the limitations.]
+
+STRUCTURED DEBRIEF QUESTIONS
+[The specific questions to ask reps for the deals being analyzed.
+Not generic. Tailored to the primary question the user is trying
+to answer.]
+
+PRELIMINARY PATTERN ANALYSIS
+[Based on whatever data the user has provided: the patterns that
+appear most significant and the hypotheses to test in interviews
+and debriefs. Honest about confidence level.]
+
+COMPETITIVE PATTERN
+[If a specific competitor is involved: what the current data suggests
+about where and why you are losing to them, and what to investigate
+further.]
+
+RECODING FRAMEWORK
+[How to re-categorize CRM records using the real reason taxonomy
+once interview and debrief findings are in hand. The categories
+to use that replace the default CRM picklist.]
+
+FINDINGS-TO-DECISIONS MAP
+[For each major finding category, the specific GTM decision it
+should inform. Named. Not "improve messaging" but "change the demo
+to lead with X instead of Y" or "stop targeting companies with fewer
+than 50 employees in the manufacturing vertical."]
+
+WHAT TO DO IN THE NEXT 30 DAYS
+[The three most important actions to take immediately, sequenced
+correctly. Not a full program. The specific moves that will produce
+the first useful findings fastest.]
+```
+
+---
+
+## Output Rules
+
+- Be direct about the unreliability of CRM closed/lost data. Do not
+  treat it as ground truth. Flag its limitations before building
+  analysis on it.
+- The findings-to-decisions map is required. Win/loss analysis
+  without a mapped decision is a report, not a diagnostic. If the
+  user cannot articulate what decisions they want to make differently,
+  ask before proceeding.
+- Distinguish product gaps from messaging gaps explicitly. The fix
+  for each is different and recommending the wrong one wastes
+  engineering resources or sales enablement budget.
+- If the user does not have access to lost prospects for interviews,
+  say so directly and adjust the plan. A win/loss program built
+  entirely on rep debriefs and CRM data is useful but limited.
+  Name the limitation.
+- Never search for competitive intelligence from external sources
+  without being asked. The skill analyzes deal data, not market data.
+- No em dashes. Use commas or periods.
