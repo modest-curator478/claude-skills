@@ -1,4 +1,4 @@
-# claude-skills: B2B Demand Gen, RevOps, and Marketing Leadership Skills for Claude
+# claude-skills: B2B Demand Gen, RevOps, and Marketing Leadership Skills for Claude, Gemini, Codex, Cursor, and More
 
 A library of Claude skills built for B2B demand gen leaders, RevOps practitioners, and marketing Directors. Covers HubSpot, ABM, intent data, pipeline health, win/loss analysis, offer negotiation, sales alignment, and small team management. Built from 20 years of running these programs, not reading about them.
 
@@ -27,6 +27,7 @@ If a section could appear in a "best practices" blog post, it was cut or rewritt
 ## Folders
 
 ### `job-search/`
+
 For active job searching at the Director level in B2B SaaS. Covers the research, outreach, and evaluation decisions that determine whether a process goes anywhere.
 
 | Skill | What it does |
@@ -39,6 +40,7 @@ For active job searching at the Director level in B2B SaaS. Covers the research,
 ---
 
 ### `revops/`
+
 For the RevOps and demand gen practitioner building or inheriting systems. Covers the operational infrastructure that determines whether pipeline is predictable.
 
 | Skill | What it does |
@@ -57,6 +59,7 @@ For the RevOps and demand gen practitioner building or inheriting systems. Cover
 ---
 
 ### `leadership/`
+
 For the Director navigating the human and organizational dynamics of the role: upward relationships, peer alignment, team management, and recurring accountability conversations.
 
 | Skill | What it does |
@@ -71,6 +74,7 @@ For the Director navigating the human and organizational dynamics of the role: u
 ---
 
 ### `writing/`
+
 For writing that has to do a specific job: generate pipeline, document proof, or build credibility in a professional context.
 
 | Skill | What it does |
@@ -82,6 +86,7 @@ For writing that has to do a specific job: generate pipeline, document proof, or
 ---
 
 ### `consulting/`
+
 For the independent practitioner delivering RevOps or HubSpot consulting work to external clients.
 
 | Skill | What it does |
@@ -93,35 +98,41 @@ For the independent practitioner delivering RevOps or HubSpot consulting work to
 
 ## How to Use These Skills
 
-**In Claude.ai (Pro, Max, Team, or Enterprise):**
-Go to Settings > Capabilities > Skills and upload any skill file. Claude will activate the skill automatically when it detects a relevant request, or you can reference the skill by name.
+Each skill lives in its own subfolder as `skill-name/SKILL.md`. This follows the Agent Skills open standard, which makes these skills compatible with Claude, Gemini, Codex, Cursor, Copilot, Windsurf, and any other tool that supports the format.
 
 **In Claude Projects:**
-Add the skill file contents to your Project knowledge. Claude will apply the skill in every conversation within that Project.
+
+Add the contents of any `SKILL.md` file to your Project knowledge. Claude will apply the skill in every conversation within that Project. To use multiple skills, add each `SKILL.md` as a separate document.
 
 **In Claude Code:**
+
 ```bash
 # Clone the repo
 git clone https://github.com/matellez/claude-skills.git
 
 # Copy all skills to your global Claude skills directory
-cp claude-skills/revops/* ~/.claude/skills/
-cp claude-skills/leadership/* ~/.claude/skills/
-cp claude-skills/job-search/* ~/.claude/skills/
-cp claude-skills/writing/* ~/.claude/skills/
-cp claude-skills/consulting/* ~/.claude/skills/
+cp -r claude-skills/revops/abm-campaign-builder/ ~/.claude/skills/
+cp -r claude-skills/revops/hubspot-audit/ ~/.claude/skills/
+cp -r claude-skills/leadership/managing-up/ ~/.claude/skills/
+cp -r claude-skills/job-search/resume-optimizer/ ~/.claude/skills/
 
-# Or install specific skills only
-cp claude-skills/revops/intent-data-activation.md ~/.claude/skills/
+# Or copy an entire folder
+cp -r claude-skills/revops/. ~/.claude/skills/
+cp -r claude-skills/leadership/. ~/.claude/skills/
+cp -r claude-skills/job-search/. ~/.claude/skills/
+cp -r claude-skills/writing/. ~/.claude/skills/
+cp -r claude-skills/consulting/. ~/.claude/skills/
 ```
+
+**In Gemini CLI, Codex, Cursor, or Windsurf:**
+
+These tools use the same Agent Skills format. Point your tool at the `SKILL.md` file inside any subfolder. For example: `claude-skills/revops/intent-data-activation/SKILL.md`.
 
 ---
 
 ## Who Built This
 
-20 years running demand gen and RevOps programs at B2B SaaS companies. Pipeline from $8M to $14M. CPL from $340 to $85. Sales cycles from 8 months to 3. LTV:CAC from 1.8:1 to 5.2:1. HubSpot rebuilds, ABM programs, partner infrastructure, GTM AI rollouts.
-
-These skills are built from that work, not from reading about it.
+20 years running demand gen and RevOps programs at B2B SaaS companies. Pipeline from $8M to $14M. CPL from $340 to $85. Sales cycles from 8 months to 3. LTV:CAC from 1.8:1 to 5.2:1. HubSpot rebuilds, ABM programs, partner infrastructure, GTM AI rollouts. These skills are built from that work, not from reading about it.
 
 [linkedin.com/in/manuelvallestellez](https://linkedin.com/in/manuelvallestellez)
 
