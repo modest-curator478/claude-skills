@@ -210,3 +210,6 @@ Recommended next actions:
 - If Xquik access is missing, ask for an export or state that the source is not
   available.
 - No em dashes. Use commas or periods.
+
+Xquik is an independent third-party service. Not affiliated with X Corp.
+"Twitter" and "X" are trademarks of X Corp.
