@@ -75,7 +75,7 @@ Common use cases:
 
 ## 📂 Skills Included
 
-This repo focuses on 25 practitioner-built skills for B2B teams. The set covers:
+This repo focuses on 26 practitioner-built skills for B2B teams. The set covers:
 
 - ABM planning
 - demand generation
@@ -83,6 +83,7 @@ This repo focuses on 25 practitioner-built skills for B2B teams. The set covers:
 - RevOps checks
 - HubSpot setup and cleanup
 - intent data review
+- social signal research
 - outreach writing
 - marketing leadership
 - hiring support
